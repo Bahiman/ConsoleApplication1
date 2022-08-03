@@ -9,7 +9,7 @@
 
 using namespace std;
 
-int main()
+int mains()
 {
     //string text;
 
@@ -50,7 +50,7 @@ int main()
     // Read from the text file
     fstream MyReadFile("filename.txt");
 
-   
+
     ifstream f("filename.txt");
 
     fstream myFile("filename.txt");
@@ -61,7 +61,7 @@ int main()
         cout << "This file already exists";
     }
     else {
-        
+
         myFile.open("filename.txt", ios_base::app);
 
         myFile << "Files can be tricky, but it is fun enough!";
@@ -72,7 +72,7 @@ int main()
 
     }
 
-    
+
 
     while (getline(MyReadFile, myText)) {
         // Output the text from the file
@@ -87,10 +87,9 @@ int main()
     myFile.seekg(0, ios_base::end);       // move to the end of the file
     myFile << "This thing was appended\n";
 
- 
+
     cout << "This was the final change";
 
-    
+
 }
 
- 
