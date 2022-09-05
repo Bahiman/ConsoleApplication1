@@ -13,8 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\One">
+      <UniqueIdentifier>{df0bf61c-0a0b-4491-80b2-d85a1d51a300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Two">
+      <UniqueIdentifier>{525a7909-6bf6-43a1-85b3-4490e5dfbc0e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="Source1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -38,6 +45,13 @@
     </ClCompile>
     <ClCompile Include="DataTwo.cpp">
       <Filter>Source Files</Filter>
+=======
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\Two</Filter>
+    </ClCompile>
+    <ClCompile Include="Source1.cpp">
+      <Filter>Source Files\One</Filter>
+>>>>>>> 67d54d6682d204619f4cab55b34308da4fd31507
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

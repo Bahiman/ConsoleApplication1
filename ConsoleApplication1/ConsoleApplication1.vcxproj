@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="AddSubtract.cpp" />
     <ClCompile Include="DataOne.cpp" />
     <ClCompile Include="DataTwo.cpp" />
@@ -35,6 +36,10 @@
     <ClInclude Include="Source1.h" />
     <ClInclude Include="Two.h" />
     <ClInclude Include="One.h" />
+=======
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Source1.cpp" />
+>>>>>>> 67d54d6682d204619f4cab55b34308da4fd31507
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
